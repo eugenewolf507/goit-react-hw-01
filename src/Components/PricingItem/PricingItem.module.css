@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+.pricingItem {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.label {
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+  /* color: rgb(221, 124, 75); */
+  text-transform: uppercase;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* 
+#dd7c4b bronze
+#c0c0c0 silver
+#dda431 gold */
+
+.capacity {
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(180, 180, 180);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.description {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(186, 186, 186);
+  text-align: center;
+  height: 64px;
+  padding: 0 50px;
+}
+
+.price {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: rgb(127, 140, 141);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 25px 0;
+}
+
+.button {
+  /* background-color: rgb(221, 124, 75); */
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
